@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Get the value of the NUM environment variable
+number=$NUM
+
+# Print the number with two decimal places
+printf "%.2f\n" $number
